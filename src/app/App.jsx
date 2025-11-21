@@ -5,6 +5,7 @@ import  Footer from "../components/footer/footer.jsx"
 import Category from "../components/categories/category.jsx"
 import "./App.css";
 import Carousel from "../components/carousel/carousel.jsx";
+import Cakeflovour from "../components/cakeFlovour/cakeflovour.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/category" element={<Category />} />
 
         <Route path="/carousel" element={<Carousel/>} />
+        <Route path="/cake_flovor" element={<Cakeflovour/>} />
       </Routes>
     </Router>
   );
