@@ -1,9 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
-import "./app/App.css";
+import Carousel from "../components/carousel/carousel.jsx";
 
 function Home() {
   return (
+    <div>
+
     <div style={{ display: "flex", justifyContent: "center", marginTop: "60px" }}>
       <motion.h1
         className="animated-title"
@@ -24,6 +26,11 @@ function Home() {
       >
         CAKE FOREST
       </motion.h1>
+
+    </div>
+      <div>
+         <Carousel/>
+      </div>
     </div>
   );
 }
