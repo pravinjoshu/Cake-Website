@@ -11,7 +11,7 @@ import "swiper/css/navigation";
 
 export default function Carousel() {
   return (
-    <div style={{ width: "100%",maxWidth:"1280px", margin: "0 auto", }}>
+    <div style={{ width: "100%",maxWidth:"100%", margin: "0 auto", }}>
        
 
       <Swiper
