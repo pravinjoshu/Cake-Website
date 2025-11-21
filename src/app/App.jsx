@@ -3,6 +3,7 @@ import Home from "../home.jsx";
 import  Topbar from "../components/topbar/topbar.jsx"
 import  Footer from "../components/footer/footer.jsx"
 import "./App.css";
+import Carousel from "../components/carousel/carousel.jsx";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/topbar" element={<Topbar/>} />
         <Route path="/footer" element={<Footer/>} />
+        <Route path="/carousel" element={<Carousel/>} />
       </Routes>
     </Router>
   );
