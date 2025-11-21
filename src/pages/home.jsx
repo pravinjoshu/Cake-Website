@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Carousel from "../components/carousel/carousel.jsx";
+import CakePrice from "../components/cake_price/cakePrice.jsx";
 
 function Home() {
   return (
@@ -30,6 +31,9 @@ function Home() {
     </div>
       <div>
          <Carousel/>
+      </div>
+      <div>
+        <CakePrice/>
       </div>
     </div>
   );
