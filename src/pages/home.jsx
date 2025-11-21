@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Carousel from "../components/carousel/carousel.jsx";
+import CakePrice from "../components/cake_price/cakePrice.jsx";
 import Category from "../components/categories/category.jsx";
 import Cakeflovor from "../components/cakeFlovour/cakeflovour.jsx";
 
@@ -40,6 +41,9 @@ function Home() {
         <div className="my-5">
           <Cakeflovor />
         </div>
+      </div>
+      <div>
+        <CakePrice/>
       </div>
     </div>
   );
