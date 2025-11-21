@@ -12,9 +12,7 @@ import "swiper/css/navigation";
 export default function Carousel() {
   return (
     <div style={{ width: "100%",maxWidth:"1280px", margin: "0 auto", }}>
-      <h1 style={{ textAlign: "center", marginBottom: "20px", color: "#CF2030" }}>
-        React Swiper Carousel Demo
-      </h1>
+       
 
       <Swiper
         modules={[Pagination, Navigation, Autoplay]}
