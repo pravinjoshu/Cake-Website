@@ -6,6 +6,7 @@ import Category from "../components/categories/category.jsx"
 import "./App.css";
 import Carousel from "../components/carousel/carousel.jsx";
 import CakeCategory from "../components/Cake_Choices/Cake_Choices.jsx";
+import Cakeflovour from "../components/cakeFlovour/cakeflovour.jsx";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/cake_category" element={<CakeCategory/>} />
 
         <Route path="/carousel" element={<Carousel/>} />
+        <Route path="/cake_flovor" element={<Cakeflovour/>} />
       </Routes>
     </Router>
   );
