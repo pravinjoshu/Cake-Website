@@ -6,9 +6,9 @@
 }
 
 .cakeContainer {
-  max-width: 1250px;
+  max-width:100%;
   margin: 0 auto;
-  padding: 2rem 1rem;
+   
 }
 
 .headerSection {

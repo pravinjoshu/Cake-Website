@@ -1,1 +1,19 @@
- 
+ .homeContainer{
+    margin: 0 80px;
+ }
+
+ @media (max-width:1024px) {
+     .homeContainer{
+         margin: 0 60px;
+        }
+    }
+ @media (max-width:768px) {
+     .homeContainer{
+         margin: 0 40px;
+        }
+    }
+    @media (max-width:600px) {
+       .homeContainer{
+       margin: 0 20px;
+    }
+    }
