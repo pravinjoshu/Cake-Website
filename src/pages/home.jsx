@@ -4,10 +4,12 @@ import Carousel from "../components/carousel/carousel.jsx";
 import CakePrice from "../components/cake_price/cakePrice.jsx";
 import Category from "../components/categories/category.jsx";
 import Cakeflovor from "../components/cakeFlovour/cakeflovour.jsx";
+import CakeCategory from "../components/Cake_Choices/Cake_Choices.jsx";
+import "../app/App.css"
 
 function Home() {
   return (
-    <div style={{ height: "auto", marginLeft:"100px" ,marginRight:"100px", }} >
+    <div  className="homeContainer" >
       <div
         style={{ display: "flex", justifyContent: "center", marginTop: "60px" }}
       >
@@ -42,8 +44,11 @@ function Home() {
           <Cakeflovor />
         </div>
       </div>
-      <div>
+      <div className="my-5">
         <CakePrice/>
+      </div>
+      <div className="my-5">
+         <CakeCategory/>
       </div>
     </div>
   );

@@ -19,6 +19,7 @@ export default function Carousel() {
         // spaceBetween={20}
         // slidesPerView={1}
         autoplay={{ delay: 2500 }}
+        speed={800}
         pagination={{ clickable: true }}
         // navigation
         style={{

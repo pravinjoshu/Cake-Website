@@ -17,11 +17,11 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/topbar" element={<Topbar/>} />
         <Route path="/footer" element={<Footer/>} />
-        <Route path="/category" element={<Category />} />
+        {/* <Route path="/category" element={<Category />} />
         <Route path="/cake_category" element={<CakeCategory/>} />
 
         <Route path="/carousel" element={<Carousel/>} />
-        <Route path="/cake_flovor" element={<Cakeflovour/>} />
+        <Route path="/cake_flovor" element={<Cakeflovour/>} /> */}
       </Routes>
     </Router>
   );
